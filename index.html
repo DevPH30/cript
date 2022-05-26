@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Decodificador de texto</title>
+</head>
+<body>
+    <section class="letra">
+        <figure>
+            <img class="logo" src="Vector.png" alt="logo alura">
+        </figure>
+        <h1>vamos criptografar ou descriptografar?</h1>
+    </section>
+    
+    <main>
+        <section>
+            <textarea class="input-texto" id cols="40" rows="6" placeholder="Digite seu texto aqui"></textarea>
+        
+            <div class="observacoes">
+                <h6 class="informacoes">Apenas letras Maiusculas e minusculas</h6>
+            </div>
+            <div class="botoes">
+                <button class="criptar" onclick="btnEncriptar">Criptografar</button>
+                <button class="descriptar" onclick="btnDesencriptar">Descriptografar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensagem" id cols="18" rows="8" style="background-image:none ;"></textarea>
+            <div class="botaocopiar">
+                <button class="copiar" onclick="btnCopiar()">Copiar</button>
+            </div>
+        </section>
+            <img class="figura" src="figura.png">
+    </Main>
+        <footer>
+            <p class="Copyright">&copy; Desenvolvido pelo aluno Paulo Henrique </p>
+        </footer>
+        <script src="script.js"></script>
+</body>
+</html>
